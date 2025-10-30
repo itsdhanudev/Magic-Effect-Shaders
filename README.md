@@ -1,2 +1,2 @@
-# Magic-Effects
-alot of effects
+# Magic-Effect-Shaders
+alots of effects
