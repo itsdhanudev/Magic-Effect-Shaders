@@ -1,0 +1,5 @@
+S/Unix shell started, type your command.
+>- S:Magic-Effect-Shaders/sh: can't find: tty fd No such device or address
+>- S:Magic-Effect-Shaders/sh: warning: won't have full job control
+>- S:Magic-Effect-Shaders/ :Magic-Effect-Shaders $ 
+>- S:Magic-Effect-Shaders/Shell finalized
