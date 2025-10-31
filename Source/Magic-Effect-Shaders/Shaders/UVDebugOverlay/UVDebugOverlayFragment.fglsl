@@ -1,0 +1,1 @@
+{"code":"#version 300 es\nprecision mediump float;\n\nuniform sampler2D u_MainTex;\nuniform float u_Intensity;\n\nin vec2 v_TexCoord;\nout vec4 fragColor;\n\nvoid main() {\n    vec4 texColor \u003d texture(u_MainTex, v_TexCoord);\n    vec3 uvColor \u003d vec3(v_TexCoord.x, v_TexCoord.y, 0.0);\n    fragColor \u003d mix(texColor, vec4(uvColor, 1.0), u_Intensity);\n}"}
